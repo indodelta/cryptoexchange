@@ -1,0 +1,179 @@
+[21-Mar-2018 07:03:37 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/devpixel/public_html/perfektPay/app/Http/Controllers/UserController.php on line 665
+[28-Mar-2018 10:16:29 UTC] PHP Fatal error:  Uncaught ErrorException: Undefined property: ErrorException::$statusCode in /home/devpixel/public_html/perfektPay/app/Exceptions/Handler.php:51
+Stack trace:
+#0 /home/devpixel/public_html/perfektPay/app/Exceptions/Handler.php(51): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined prope...', '/home/devpixel/...', 51, Array)
+#1 /home/devpixel/public_html/perfektPay/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): App\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ErrorException))
+#2 /home/devpixel/public_html/perfektPay/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(ErrorException))
+#3 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#4 {main}
+  thrown in /home/devpixel/public_html/perfektPay/app/Exceptions/Handler.php on line 51
+[11-Apr-2018 05:06:00 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\admincontroller::get_data() in /home/devpixel/public_html/perfektPay/app/Http/Controllers/admincontroller.php on line 1124
+[11-Apr-2018 05:39:30 America/Chicago] PHP Warning:  require_once(/home2/perfektpay/public_html/public/index.php): failed to open stream: No such file or directory in /home2/perfektpay/public_html/index.php on line 21
+[11-Apr-2018 05:39:30 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '/home2/perfektpay/public_html/public/index.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home2/perfektpay/public_html/index.php on line 21
+[11-Apr-2018 05:39:30 America/Chicago] PHP Parse error:  syntax error, unexpected '?' in /home2/perfektpay/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[11-Apr-2018 05:39:34 America/Chicago] PHP Parse error:  syntax error, unexpected '?' in /home2/perfektpay/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[11-Apr-2018 05:39:37 America/Chicago] PHP Parse error:  syntax error, unexpected '?' in /home2/perfektpay/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[11-Apr-2018 05:39:37 America/Chicago] PHP Parse error:  syntax error, unexpected '?' in /home2/perfektpay/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[11-Apr-2018 05:39:40 America/Chicago] PHP Parse error:  syntax error, unexpected '?' in /home2/perfektpay/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[11-Apr-2018 05:39:40 America/Chicago] PHP Parse error:  syntax error, unexpected '?' in /home2/perfektpay/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[11-Apr-2018 05:39:45 America/Chicago] PHP Parse error:  syntax error, unexpected '?' in /home2/perfektpay/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[11-Apr-2018 05:39:52 America/Chicago] PHP Parse error:  syntax error, unexpected '?' in /home2/perfektpay/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[11-Apr-2018 05:39:58 America/Chicago] PHP Parse error:  syntax error, unexpected '?' in /home2/perfektpay/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[11-Apr-2018 05:40:03 America/Chicago] PHP Parse error:  syntax error, unexpected '?' in /home2/perfektpay/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[11-Apr-2018 05:40:09 America/Chicago] PHP Parse error:  syntax error, unexpected '?' in /home2/perfektpay/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[11-Apr-2018 05:40:15 America/Chicago] PHP Parse error:  syntax error, unexpected '?' in /home2/perfektpay/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[11-Apr-2018 05:40:15 America/Chicago] PHP Parse error:  syntax error, unexpected '?' in /home2/perfektpay/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[11-Apr-2018 05:40:16 America/Chicago] PHP Parse error:  syntax error, unexpected '?' in /home2/perfektpay/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[11-Apr-2018 05:40:18 America/Chicago] PHP Parse error:  syntax error, unexpected '?' in /home2/perfektpay/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[11-Apr-2018 05:40:21 America/Chicago] PHP Parse error:  syntax error, unexpected '?' in /home2/perfektpay/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[11-Apr-2018 05:40:21 America/Chicago] PHP Parse error:  syntax error, unexpected '?' in /home2/perfektpay/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[11-Apr-2018 05:40:22 America/Chicago] PHP Parse error:  syntax error, unexpected '?' in /home2/perfektpay/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[11-Apr-2018 05:40:27 America/Chicago] PHP Parse error:  syntax error, unexpected '?' in /home2/perfektpay/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[11-Apr-2018 05:40:31 America/Chicago] PHP Parse error:  syntax error, unexpected '?' in /home2/perfektpay/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[11-Apr-2018 05:40:41 America/Chicago] PHP Parse error:  syntax error, unexpected '?' in /home2/perfektpay/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[11-Apr-2018 05:40:41 America/Chicago] PHP Parse error:  syntax error, unexpected '?' in /home2/perfektpay/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[11-Apr-2018 05:40:46 America/Chicago] PHP Parse error:  syntax error, unexpected '?' in /home2/perfektpay/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[11-Apr-2018 05:40:52 America/Chicago] PHP Parse error:  syntax error, unexpected '?' in /home2/perfektpay/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[11-Apr-2018 05:40:52 America/Chicago] PHP Parse error:  syntax error, unexpected '?' in /home2/perfektpay/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[11-Apr-2018 05:40:59 America/Chicago] PHP Parse error:  syntax error, unexpected '?' in /home2/perfektpay/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[12-Apr-2018 08:20:56 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home2/perfektpay/public_html/storage/framework/views/d0ca075c2a656b1ce4ac402ea4fd76ef83cab5e1.php on line 357
+[12-Apr-2018 08:21:03 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home2/perfektpay/public_html/storage/framework/views/d0ca075c2a656b1ce4ac402ea4fd76ef83cab5e1.php on line 357
+[12-Apr-2018 08:21:04 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home2/perfektpay/public_html/storage/framework/views/d0ca075c2a656b1ce4ac402ea4fd76ef83cab5e1.php on line 357
+[12-Apr-2018 08:21:07 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home2/perfektpay/public_html/storage/framework/views/d0ca075c2a656b1ce4ac402ea4fd76ef83cab5e1.php on line 357
+[12-Apr-2018 08:21:11 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home2/perfektpay/public_html/storage/framework/views/d0ca075c2a656b1ce4ac402ea4fd76ef83cab5e1.php on line 357
+[12-Apr-2018 08:22:23 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home2/perfektpay/public_html/storage/framework/views/d0ca075c2a656b1ce4ac402ea4fd76ef83cab5e1.php on line 357
+[12-Apr-2018 08:22:24 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home2/perfektpay/public_html/storage/framework/views/d0ca075c2a656b1ce4ac402ea4fd76ef83cab5e1.php on line 357
+[12-Apr-2018 08:22:27 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home2/perfektpay/public_html/storage/framework/views/d0ca075c2a656b1ce4ac402ea4fd76ef83cab5e1.php on line 357
+[12-Apr-2018 08:22:29 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home2/perfektpay/public_html/storage/framework/views/d0ca075c2a656b1ce4ac402ea4fd76ef83cab5e1.php on line 357
+[16-Apr-2018 04:36:03 America/Chicago] PHP Parse error:  syntax error, unexpected '.', expecting '&' or variable (T_VARIABLE) in /home2/perfektp/public_html/vendor/symfony/var-dumper/Resources/functions/dump.php on line 18
+[17-Apr-2018 05:57:49 America/Chicago] PHP Parse error:  syntax error, unexpected '.', expecting '&' or variable (T_VARIABLE) in /home2/perfektp/public_html/vendor/symfony/var-dumper/Resources/functions/dump.php on line 18
+[17-Apr-2018 05:57:49 America/Chicago] PHP Parse error:  syntax error, unexpected '.', expecting '&' or variable (T_VARIABLE) in /home2/perfektp/public_html/vendor/symfony/var-dumper/Resources/functions/dump.php on line 18
+[17-Apr-2018 05:57:49 America/Chicago] PHP Parse error:  syntax error, unexpected '.', expecting '&' or variable (T_VARIABLE) in /home2/perfektp/public_html/vendor/symfony/var-dumper/Resources/functions/dump.php on line 18
+[17-Apr-2018 05:57:49 America/Chicago] PHP Parse error:  syntax error, unexpected '.', expecting '&' or variable (T_VARIABLE) in /home2/perfektp/public_html/vendor/symfony/var-dumper/Resources/functions/dump.php on line 18
+[17-Apr-2018 05:57:49 America/Chicago] PHP Parse error:  syntax error, unexpected '.', expecting '&' or variable (T_VARIABLE) in /home2/perfektp/public_html/vendor/symfony/var-dumper/Resources/functions/dump.php on line 18
+[17-Apr-2018 05:57:49 America/Chicago] PHP Parse error:  syntax error, unexpected '.', expecting '&' or variable (T_VARIABLE) in /home2/perfektp/public_html/vendor/symfony/var-dumper/Resources/functions/dump.php on line 18
+[17-Apr-2018 05:57:49 America/Chicago] PHP Parse error:  syntax error, unexpected '.', expecting '&' or variable (T_VARIABLE) in /home2/perfektp/public_html/vendor/symfony/var-dumper/Resources/functions/dump.php on line 18
+[17-Apr-2018 05:57:49 America/Chicago] PHP Parse error:  syntax error, unexpected '.', expecting '&' or variable (T_VARIABLE) in /home2/perfektp/public_html/vendor/symfony/var-dumper/Resources/functions/dump.php on line 18
+[17-Apr-2018 05:57:49 America/Chicago] PHP Parse error:  syntax error, unexpected '.', expecting '&' or variable (T_VARIABLE) in /home2/perfektp/public_html/vendor/symfony/var-dumper/Resources/functions/dump.php on line 18
+[18-Apr-2018 11:45:07 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: View [layout] not found. in /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php:137
+Stack trace:
+#0 /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php(92): Illuminate\View\FileViewFinder->findInPaths('layout', Array)
+#1 /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php(76): Illuminate\View\FileViewFinder->findNamespacedView('errors::layout')
+#2 /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/View/Factory.php(128): Illuminate\View\FileViewFinder->find('errors::layout')
+#3 /home2/perfektp/public_html/storage/framework/views/9f96658cf1360a2429934f5dac7ab0941d7d6946.php(5): Illuminate\View\Factory->make('errors::layout', Array)
+#4 /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(43): include('/home2/perfektp/...')
+#5 /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/Comp in /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php on line 137
+[18-Apr-2018 11:45:07 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: View [layout] not found. in /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php:137
+Stack trace:
+#0 /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php(92): Illuminate\View\FileViewFinder->findInPaths('layout', Array)
+#1 /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php(76): Illuminate\View\FileViewFinder->findNamespacedView('errors::layout')
+#2 /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/View/Factory.php(128): Illuminate\View\FileViewFinder->find('errors::layout')
+#3 /home2/perfektp/public_html/storage/framework/views/9f96658cf1360a2429934f5dac7ab0941d7d6946.php(5): Illuminate\View\Factory->make('errors::layout', Array)
+#4 /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(43): include('/home2/perfektp/...')
+#5 /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/Comp in /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php on line 137
+[18-Apr-2018 11:45:07 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: View [layout] not found. in /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php:137
+Stack trace:
+#0 /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php(92): Illuminate\View\FileViewFinder->findInPaths('layout', Array)
+#1 /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php(76): Illuminate\View\FileViewFinder->findNamespacedView('errors::layout')
+#2 /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/View/Factory.php(128): Illuminate\View\FileViewFinder->find('errors::layout')
+#3 /home2/perfektp/public_html/storage/framework/views/9f96658cf1360a2429934f5dac7ab0941d7d6946.php(5): Illuminate\View\Factory->make('errors::layout', Array)
+#4 /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(43): include('/home2/perfektp/...')
+#5 /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/Comp in /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php on line 137
+[18-Apr-2018 11:45:07 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: View [layout] not found. in /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php:137
+Stack trace:
+#0 /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php(92): Illuminate\View\FileViewFinder->findInPaths('layout', Array)
+#1 /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php(76): Illuminate\View\FileViewFinder->findNamespacedView('errors::layout')
+#2 /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/View/Factory.php(128): Illuminate\View\FileViewFinder->find('errors::layout')
+#3 /home2/perfektp/public_html/storage/framework/views/9f96658cf1360a2429934f5dac7ab0941d7d6946.php(5): Illuminate\View\Factory->make('errors::layout', Array)
+#4 /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(43): include('/home2/perfektp/...')
+#5 /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/Comp in /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php on line 137
+[18-Apr-2018 11:45:07 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: View [layout] not found. in /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php:137
+Stack trace:
+#0 /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php(92): Illuminate\View\FileViewFinder->findInPaths('layout', Array)
+#1 /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php(76): Illuminate\View\FileViewFinder->findNamespacedView('errors::layout')
+#2 /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/View/Factory.php(128): Illuminate\View\FileViewFinder->find('errors::layout')
+#3 /home2/perfektp/public_html/storage/framework/views/9f96658cf1360a2429934f5dac7ab0941d7d6946.php(5): Illuminate\View\Factory->make('errors::layout', Array)
+#4 /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(43): include('/home2/perfektp/...')
+#5 /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/Comp in /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php on line 137
+[18-Apr-2018 11:45:07 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: View [layout] not found. in /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php:137
+Stack trace:
+#0 /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php(92): Illuminate\View\FileViewFinder->findInPaths('layout', Array)
+#1 /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php(76): Illuminate\View\FileViewFinder->findNamespacedView('errors::layout')
+#2 /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/View/Factory.php(128): Illuminate\View\FileViewFinder->find('errors::layout')
+#3 /home2/perfektp/public_html/storage/framework/views/9f96658cf1360a2429934f5dac7ab0941d7d6946.php(5): Illuminate\View\Factory->make('errors::layout', Array)
+#4 /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(43): include('/home2/perfektp/...')
+#5 /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/Comp in /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php on line 137
+[18-Apr-2018 11:45:07 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: View [layout] not found. in /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php:137
+Stack trace:
+#0 /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php(92): Illuminate\View\FileViewFinder->findInPaths('layout', Array)
+#1 /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php(76): Illuminate\View\FileViewFinder->findNamespacedView('errors::layout')
+#2 /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/View/Factory.php(128): Illuminate\View\FileViewFinder->find('errors::layout')
+#3 /home2/perfektp/public_html/storage/framework/views/9f96658cf1360a2429934f5dac7ab0941d7d6946.php(5): Illuminate\View\Factory->make('errors::layout', Array)
+#4 /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(43): include('/home2/perfektp/...')
+#5 /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/Comp in /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php on line 137
+[18-Apr-2018 11:45:07 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: View [layout] not found. in /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php:137
+Stack trace:
+#0 /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php(92): Illuminate\View\FileViewFinder->findInPaths('layout', Array)
+#1 /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php(76): Illuminate\View\FileViewFinder->findNamespacedView('errors::layout')
+#2 /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/View/Factory.php(128): Illuminate\View\FileViewFinder->find('errors::layout')
+#3 /home2/perfektp/public_html/storage/framework/views/9f96658cf1360a2429934f5dac7ab0941d7d6946.php(5): Illuminate\View\Factory->make('errors::layout', Array)
+#4 /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(43): include('/home2/perfektp/...')
+#5 /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/Comp in /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php on line 137
+[18-Apr-2018 11:45:07 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: View [layout] not found. in /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php:137
+Stack trace:
+#0 /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php(92): Illuminate\View\FileViewFinder->findInPaths('layout', Array)
+#1 /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php(76): Illuminate\View\FileViewFinder->findNamespacedView('errors::layout')
+#2 /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/View/Factory.php(128): Illuminate\View\FileViewFinder->find('errors::layout')
+#3 /home2/perfektp/public_html/storage/framework/views/9f96658cf1360a2429934f5dac7ab0941d7d6946.php(5): Illuminate\View\Factory->make('errors::layout', Array)
+#4 /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(43): include('/home2/perfektp/...')
+#5 /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/Comp in /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php on line 137
+[18-Apr-2018 11:45:07 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: View [layout] not found. in /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php:137
+Stack trace:
+#0 /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php(92): Illuminate\View\FileViewFinder->findInPaths('layout', Array)
+#1 /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php(76): Illuminate\View\FileViewFinder->findNamespacedView('errors::layout')
+#2 /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/View/Factory.php(128): Illuminate\View\FileViewFinder->find('errors::layout')
+#3 /home2/perfektp/public_html/storage/framework/views/9f96658cf1360a2429934f5dac7ab0941d7d6946.php(5): Illuminate\View\Factory->make('errors::layout', Array)
+#4 /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(43): include('/home2/perfektp/...')
+#5 /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/Comp in /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php on line 137
+[19-Apr-2018 13:45:02 UTC] PHP Warning:  Unterminated comment starting line 1185 in /home2/perfektp/public_html/app/Http/Controllers/UserController.php on line 1185
+[20-Apr-2018 07:17:57 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home2/perfektp/public_html/app/Http/Controllers/UserController.php on line 1642
+[20-Apr-2018 07:20:03 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home2/perfektp/public_html/app/Http/Controllers/UserController.php on line 1642
+[20-Apr-2018 07:20:03 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home2/perfektp/public_html/app/Http/Controllers/UserController.php on line 1642
+[20-Apr-2018 07:20:04 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home2/perfektp/public_html/app/Http/Controllers/UserController.php on line 1642
+[20-Apr-2018 07:20:22 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home2/perfektp/public_html/app/Http/Controllers/UserController.php on line 1642
+[20-Apr-2018 07:20:27 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home2/perfektp/public_html/app/Http/Controllers/UserController.php on line 1642
+[20-Apr-2018 07:20:28 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home2/perfektp/public_html/app/Http/Controllers/UserController.php on line 1642
+[20-Apr-2018 07:20:29 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home2/perfektp/public_html/app/Http/Controllers/UserController.php on line 1642
+[20-Apr-2018 07:20:46 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home2/perfektp/public_html/app/Http/Controllers/UserController.php on line 1642
+[20-Apr-2018 07:21:11 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home2/perfektp/public_html/app/Http/Controllers/UserController.php on line 1642
+[24-Apr-2018 06:14:30 UTC] PHP Warning:  Uncaught ErrorException: require(/home2/perfektp/public_html/routes/web.php): failed to open stream: No such file or directory in /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php:394
+Stack trace:
+#0 /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(394): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/home/p...', '/home2/perfektp/...', 394, Array)
+#1 /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(394): require()
+#2 /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(350): Illuminate\Routing\Router->loadRoutes('/home2/perfektp/...')
+#3 /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(105): Illuminate\Routing\Router->group(Array, '/home2/perfektp/...')
+#4 /home2/perfektp/public_html/app/Providers/RouteServiceProvider.php(56): Illuminate\Routing\RouteRegistrar->group('/home2/perfektp/...')
+#5 /home/perfe in /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php on line 394
+[24-Apr-2018 06:14:30 UTC] PHP Fatal error:  Illuminate\Routing\Router::loadRoutes(): Failed opening required '/home2/perfektp/public_html/routes/web.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php on line 394
+[03-May-2018 00:10:03 America/Chicago] PHP Parse error:  syntax error, unexpected '.', expecting '&' or variable (T_VARIABLE) in /home2/perfektp/public_html/vendor/symfony/var-dumper/Resources/functions/dump.php on line 18
+[07-May-2018 02:35:03 America/Chicago] PHP Parse error:  syntax error, unexpected '.', expecting '&' or variable (T_VARIABLE) in /home2/perfektp/public_html/vendor/symfony/var-dumper/Resources/functions/dump.php on line 18
+[08-May-2018 08:00:26 America/Chicago] PHP Parse error:  syntax error, unexpected '.', expecting '&' or variable (T_VARIABLE) in /home2/perfektp/public_html/vendor/symfony/var-dumper/Resources/functions/dump.php on line 18
+[14-May-2018 01:05:03 America/Chicago] PHP Parse error:  syntax error, unexpected '.', expecting '&' or variable (T_VARIABLE) in /home2/perfektp/public_html/vendor/symfony/var-dumper/Resources/functions/dump.php on line 18
+[14-May-2018 08:18:08 America/Chicago] PHP Parse error:  syntax error, unexpected '.', expecting '&' or variable (T_VARIABLE) in /home2/perfektp/public_html/vendor/symfony/var-dumper/Resources/functions/dump.php on line 18
+[20-May-2018 09:05:09 America/Chicago] PHP Parse error:  syntax error, unexpected '.', expecting '&' or variable (T_VARIABLE) in /home2/perfektp/public_html/vendor/symfony/var-dumper/Resources/functions/dump.php on line 18
+[22-May-2018 08:10:03 America/Chicago] PHP Parse error:  syntax error, unexpected '.', expecting '&' or variable (T_VARIABLE) in /home2/perfektp/public_html/vendor/symfony/var-dumper/Resources/functions/dump.php on line 18
+[24-May-2018 08:55:10 America/Chicago] PHP Parse error:  syntax error, unexpected '.', expecting '&' or variable (T_VARIABLE) in /home2/perfektp/public_html/vendor/symfony/var-dumper/Resources/functions/dump.php on line 18
+[25-May-2018 16:00:02 America/Chicago] PHP Parse error:  syntax error, unexpected '?' in /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[25-May-2018 16:05:02 America/Chicago] PHP Parse error:  syntax error, unexpected '?' in /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[26-May-2018 07:55:11 America/Chicago] PHP Parse error:  syntax error, unexpected '?' in /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[27-May-2018 06:45:04 America/Chicago] PHP Parse error:  syntax error, unexpected '?' in /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[28-May-2018 02:55:08 America/Chicago] PHP Parse error:  syntax error, unexpected '?' in /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[30-May-2018 08:20:06 America/Chicago] PHP Parse error:  syntax error, unexpected '?' in /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[04-Jun-2018 01:05:05 America/Chicago] PHP Parse error:  syntax error, unexpected '?' in /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[06-Jun-2018 00:50:03 America/Chicago] PHP Parse error:  syntax error, unexpected '?' in /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[11-Jun-2018 03:35:17 America/Chicago] PHP Parse error:  syntax error, unexpected '?' in /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[13-Jun-2018 02:20:04 America/Chicago] PHP Parse error:  syntax error, unexpected '?' in /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[14-Jun-2018 07:50:10 America/Chicago] PHP Parse error:  syntax error, unexpected '?' in /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[17-Jun-2018 00:20:03 America/Chicago] PHP Parse error:  syntax error, unexpected '?' in /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[31-Jul-2018 06:45:44 America/Chicago] PHP Parse error:  syntax error, unexpected '?' in /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[31-Jul-2018 06:45:46 America/Chicago] PHP Parse error:  syntax error, unexpected '?' in /home2/perfektp/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233

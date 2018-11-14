@@ -1,0 +1,10 @@
+[21-Mar-2018 07:03:37 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/devpixel/public_html/perfektPay/app/Http/Controllers/UserController.php on line 665
+[28-Mar-2018 10:16:29 UTC] PHP Fatal error:  Uncaught ErrorException: Undefined property: ErrorException::$statusCode in /home/devpixel/public_html/perfektPay/app/Exceptions/Handler.php:51
+Stack trace:
+#0 /home/devpixel/public_html/perfektPay/app/Exceptions/Handler.php(51): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined prope...', '/home/devpixel/...', 51, Array)
+#1 /home/devpixel/public_html/perfektPay/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): App\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ErrorException))
+#2 /home/devpixel/public_html/perfektPay/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(ErrorException))
+#3 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#4 {main}
+  thrown in /home/devpixel/public_html/perfektPay/app/Exceptions/Handler.php on line 51
+[03-Apr-2018 09:25:21 America/Chicago] PHP Parse error:  syntax error, unexpected '?' in /home2/perfektpay/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233

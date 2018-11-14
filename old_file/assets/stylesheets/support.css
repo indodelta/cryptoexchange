@@ -1,0 +1,1543 @@
+
+#flash {
+    display: none;
+    font-size: 20px;
+    text-align: center;
+}
+.flash_html {
+    display: inline;
+}
+.flash_ajax {
+    color: #222;
+    display: block;
+    left: 50%;
+    margin: 0 auto 0 -200px;
+    position: fixed;
+    top: 0;
+    width: 400px;
+    z-index: 1003;
+}
+.flash_html div, .flash_ajax div {
+    background-color: #fffdd7;
+    border-bottom: 3px solid #fdfba8;
+    border-left: 3px solid #fdfba8;
+    border-right: 3px solid #fdfba8;
+    font-size: 14px;
+    margin: 0 auto;
+    padding: 5px 40px;
+    text-align: center;
+    width: 400px;
+}
+.flash_ajax div.flash_error, .flash_html div.flash_error, .flash_ajax div.flash_critical, .flash_html div.flash_critical {
+    background-color: #ffbaba;
+    border-color: #ff0000;
+}
+.wrapper {
+    margin: 0 auto;
+    width: 950px;
+}
+#company-support-portal {
+    overflow: hidden;
+    padding: 0 0 30px;
+}
+#breadcrumbs {
+    color: #434546;
+    float: left;
+    font-weight: bold;
+    line-height: 20px;
+    margin: 0 0 10px;
+    width: 70%;
+}
+#status-update {
+    float: right;
+    margin-right: 250px;
+}
+#status-update .myaccount-form {
+    padding-top: 0;
+}
+#company-header {
+  background-color: #003466;
+  padding-top: 0;
+}
+#company-header h1 {
+  background: rgba(0, 0, 0, 0) url("../assets/images/logo.png") no-repeat scroll 0 center;
+  border-bottom: 0 none;
+  float: left;
+  font-size: 25px;
+  padding: 0 0 0 35px;
+}
+#company-header a {
+    color: #fff;
+}
+#company-header a:hover {
+    color: #999;
+    text-decoration: none;
+}
+#customer-account {
+    color: #434546;
+    float: right;
+    margin: 5px 0 0;
+    padding-right: 10px;
+}
+#customer-account span {
+    float: left;
+    font-weight: bold;
+}
+#customer-account a {
+    background: #434546 none repeat scroll 0 0;
+    display: inline-block;
+    float: left;
+    font-weight: bold;
+    padding: 4px 9px;
+}
+#customer-account a:hover {
+    background: #434546 none repeat scroll 0 0;
+    color: #fff;
+}
+#customer-account #return-reset a {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    color: #434546 !important;
+    font-weight: normal;
+}
+#customer-account #return-reset a:hover {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    font-weight: normal;
+}
+#support-header {
+  background: #40bde9 none repeat scroll 0 0;
+  margin: 0;
+  padding: 20px 0;
+}
+#support-header .wrapper {
+    position: relative;
+}
+#support-header h2 {
+    font-size: 32px;
+    text-shadow: 0 1px 0 #fff;
+}
+#support-side {
+    margin: 0 0 0 20px;
+}
+#support-side .content {
+    margin: 0 0 40px;
+}
+#support-side h3 {
+    border-bottom: 1px solid #ccc;
+    margin: 21px 0 30px;
+    padding: 0 0 20px;
+}
+#support-side ul {
+    list-style: outside none none;
+}
+#support-side li {
+    font-size: 14px;
+    letter-spacing: 0.01em;
+    line-height: 1.5em;
+    margin: 0 0 5px;
+}
+#tweets .tweet_avatar {
+    display: none;
+}
+#tweets .tweet_time a {
+    color: #999;
+    display: block;
+}
+#tweets li {
+    line-height: 18px;
+    margin: 0 0 20px;
+}
+#support-side .twitter-timeline-rendered {
+    margin-top: 20px;
+}
+#support-side a.twitter-timeline {
+    clear: both;
+    display: block;
+    margin-top: 20px;
+}
+#support-main {
+    float:;
+}
+#support-main.main-customer-feedback {
+    float: none;
+    margin: 60px auto;
+}
+#support-main.main-customer-feedback .complete {
+    font-size: 20px;
+    font-weight: bold;
+}
+#support-main .support-body {
+    border-right: 1px solid rgba(134, 134, 134, 0.25);
+}
+#support-main .content {
+    overflow: hidden;
+    padding: 20px 40px 20px 0;
+}
+#support-main .headline-image {
+    margin-top: 5px;
+}
+#support-main h3 {
+    border-bottom: 1px solid #ddd;
+    margin: 0 0 20px;
+    padding: 0 0 20px;
+}
+#support-main h3.verify-title {
+    background: rgba(0, 0, 0, 0) url("/images/twitter-small.gif") no-repeat scroll 0 3px;
+    padding-left: 35px;
+}
+#support-main h4 {
+    margin: 0 0 15px;
+}
+#support-main h5 {
+    margin: 0 0 9px;
+}
+#support-main h5 a {
+    background: #eee none repeat scroll 0 0;
+    color: #666;
+    font-size: 11px;
+    margin: -2px 0 0 9px;
+    padding: 3px 7px;
+    position: absolute;
+    text-decoration: none;
+}
+#support-main .dashboard h5 a:hover {
+    background: #254689 none repeat scroll 0 0;
+    color: #fff;
+    text-decoration: none;
+}
+#support-main .dashboard td {
+  border-bottom: 1px solid #ccc;
+  padding: 20px 0 10px;
+  vertical-align:top;
+}
+#support-main .dashboard .row1 td {
+    padding: 0 0 10px;
+}
+#support-main .dashboard .last td {
+    border-bottom: medium none;
+}
+#support-main .dashboard .topic {
+    margin: 0;
+}
+#support-main .dashboard .topic ul {
+    color: #434546;
+    font-size: 1.1em;
+    list-style: outside none none;
+    margin: 0 15px 20px 0;
+}
+#support-main .dashboard .topic li {
+    background: rgba(0, 0, 0, 0) url("https://cdn.desk.com/images/portal/featured-bullet.png") no-repeat scroll -2px 5px;
+    color: #434546;
+    line-height: 1.5em;
+    margin: 0 0 5px;
+    padding: 0 0 0 15px;
+}
+#support-main .dashboard .topic li.featured a {
+    background: #fafbca none repeat scroll 0 0;
+    font-weight: bold;
+}
+#support-main .dashboard h5 {
+    background: rgba(0, 0, 0, 0) url("https://cdn.desk.com/images/portal/icon-types-small.png") no-repeat scroll 0 0;
+    font-size: 13px;
+    height: 16px;
+    padding: 0 0 0 20px;
+    text-transform: uppercase;
+}
+#support-main .dashboard h5.questions {
+    background-position: 0 -109px;
+}
+#support-main .articles ul {
+    list-style: outside none none;
+}
+#support-main .articles h4 {
+    font-weight: normal;
+    margin: 0 0 5px;
+}
+#support-main .articles li {
+    margin: 0 0 30px;
+}
+#support-main .articles li.question {
+    background: rgba(0, 0, 0, 0) url("https://cdn.desk.com/images/portal/icon-types.png") no-repeat scroll 0 3px;
+    padding: 0 0 0 40px;
+}
+#support-main .articles li.article {
+    background: rgba(0, 0, 0, 0) url("https://cdn.desk.com/images/portal/icon-types.png") no-repeat scroll 0 -276px;
+    padding: 0 0 0 40px;
+}
+#support-main .articles li.question.featured {
+    background-position: 0 -138px;
+}
+#support-main .articles li.article.featured {
+    background-position: 0 -415px;
+}
+#support-main .articles li.featured h4 a {
+    background: #fafbca none repeat scroll 0 0;
+    font-weight: bold;
+}
+#support-main .articles li p {
+    color: #777;
+    margin: 0 0 5px;
+}
+#support-main .articles .condensed {
+    background: #fffdf4 none repeat scroll 0 0;
+    border: 1px solid #e3debf;
+    margin: 0 0 30px;
+    padding: 20px 20px 0;
+}
+#support-main .articles .condensed li {
+    margin: 0;
+    padding: 0;
+}
+#support-main .articles .condensed h4 {
+    font-size: 18px;
+}
+#support-main .articles .condensed p {
+    color: #777;
+    margin: 0 0 20px 30px;
+}
+#support-main .articles .condensed a {
+    margin: 0 0 20px 30px;
+}
+#support-main #search-results .meta, #support-main .articles .meta {
+    color: #333;
+    font-size: 11px;
+    font-weight: bold;
+    margin: 5px 0;
+    text-transform: uppercase;
+}
+#support-main .articles .meta .answered {
+    background: rgba(0, 0, 0, 0) url("https://cdn.desk.com/images/portal/check.png") no-repeat scroll 0 center;
+    border-right: 1px solid #ddd;
+    color: #549b07;
+    margin: 0 5px 0 0;
+    padding: 0 5px 0 14px;
+}
+#support-main .articles .meta .count, #support-main .articles .meta .date, #support-main .question-details .meta .name {
+    border-right: 1px solid #ddd;
+    margin: 0 5px 0 0;
+    padding: 0 5px 0 0;
+}
+.header {
+  border-top: 4px solid #003466;
+}
+#toggle div {
+    float: right;
+    margin: -62px 0 0;
+}
+#toggle a {
+    background: #fff none repeat scroll 0 0;
+    color: #666;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 5px 7px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#toggle a:hover {
+    background: #254689 none repeat scroll 0 0;
+    color: #fff;
+    text-decoration: none;
+}
+#toggle .active, #toggle a.active:hover {
+    background: #ddd none repeat scroll 0 0;
+    color: #000;
+}
+#support-main .title {
+    border-bottom: 1px solid #ccc;
+    margin: 0 0 20px;
+    padding: 0 0 20px;
+}
+#support-main .title h3 {
+    border: 0 none;
+    margin: 0 0 3px;
+    padding: 0;
+}
+#support-main .title .meta {
+    font-weight: bold;
+    margin: 0;
+}
+#support-main .article-content h1, #support-main .answer-details h1 {
+    font-size: 22px;
+}
+#support-main .article-content h2, #support-main .answer-details h2 {
+    font-size: 20px;
+}
+#support-main .article-content h3, #support-main .answer-details h3 {
+    font-size: 18px;
+}
+#support-main .article-content h4, #support-main .answer-details h4 {
+    font-size: 16px;
+}
+#support-main .article-content h5, #support-main .answer-details h5 {
+    font-size: 15px;
+}
+#support-main .article-content ul, ol, #support-main .answer-details ul, #support-main .answer-details ol {
+    line-height: 1.2em;
+    list-style-position: inside;
+    margin-left: 15px;
+}
+#support-main .article-content p {
+    line-height: 1.2em;
+    margin: 0;
+}
+#support-main .article-content strong, ul, ol, li {
+    line-height: 20px;
+}
+#support-main .article-content blockquote, #support-main .article-content q, #support-main .answer-details blockquote, #support-main .answer-details q {
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    margin: 0.8em 0 0.8em 20px;
+    quotes: "" "";
+}
+#support-main .article-content blockquote p, #support-main .article-content q p, #support-main .answer-details blockquote p, #support-main .answer-details q p {
+    background: inherit;
+    color: #666;
+    margin: 0;
+    padding: 0.8em;
+}
+#attachments {
+    border-bottom: 1px solid #ccc;
+    margin: 20px 0 0;
+    padding: 0 0 20px;
+}
+#attachments strong {
+    background: rgba(0, 0, 0, 0) url("https://cdn.desk.com/images/attachment.png") no-repeat scroll -1px 0;
+    display: block;
+    margin: 0 0 10px;
+    padding: 0 0 0 16px;
+}
+#attachments ul {
+    list-style: outside none none;
+}
+#rate_article_container {
+    margin: 20px 0 0;
+}
+#rate_article div {
+    color: #265007;
+    float: left;
+    font-style: italic;
+    height: 1%;
+    margin: 0 0 6px;
+    width: 100%;
+}
+#rate_article_container a {
+    background: rgba(0, 0, 0, 0) url("https://cdn.desk.com/images/portal/rating-arrows.gif") no-repeat scroll center 4px;
+    border: 1px solid #ccc;
+    float: left;
+    height: 16px;
+    margin: -2px 5px 0 0;
+    overflow: hidden;
+    text-indent: -999px;
+    width: 20px;
+}
+#rate_article_container .rate-link-down {
+    color: #9b0909;
+}
+#rate_article_container .rate-link-down a {
+    background-position: center -28px;
+}
+#rate_article_container span {
+    float: left;
+}
+#support-main .question {
+    padding: 0;
+}
+#support-main .question .question-body {
+    background: #fffdf4 none repeat scroll 0 0;
+    border-bottom: 1px solid #e3debf;
+    margin: 0 0 20px;
+    overflow: hidden;
+    padding: 20px 20px 0;
+}
+#support-main .question .gravatar-wrapper {
+    border: 1px solid #ccc;
+    float: left;
+    height: 56px;
+    width: 56px;
+}
+#support-main .question .gravatar {
+    border: 3px solid #fff;
+    float: left;
+}
+#support-main .question .question-details {
+    padding: 0 0 0 70px;
+}
+#support-main .question .question-details h3 {
+    border: 0 none;
+    margin: 0 0 5px;
+    padding: 0;
+}
+#support-main .question .question-details .meta {
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#support-main .question .meta {
+    font-weight: bold;
+    margin: 0 0 10px;
+}
+#support-main .question .replies {
+    margin: 0 0 20px;
+    padding: 0 20px;
+}
+#support-main .question .replies h4 {
+    border-bottom: 1px solid #ccc;
+    font-size: 15px;
+    margin: 0;
+    padding: 10px 0;
+    text-transform: uppercase;
+}
+#support-main .question .replies.agents h4 {
+    background: rgba(0, 0, 0, 0) url("https://cdn.desk.com/images/portal/check.png") no-repeat scroll 0 center;
+    padding: 10px 0 10px 20px;
+}
+#support-main .question .replies.agents .reply {
+    background: #fff none repeat scroll 0 0;
+    padding: 20px 0 0;
+}
+#support-main .question .reply {
+    height: 1%;
+    margin: 0;
+    overflow: hidden;
+    padding: 20px 0 0 70px;
+    position: relative;
+}
+#support-main .question .answer-details, #support-main .myportal .interaction-details {
+    padding: 0 0 0 70px;
+}
+#support-main .question .answer-details .meta {
+    float: left;
+    margin: 0;
+    width: 100%;
+}
+#support-main .question .answer-details .meta span {
+    display: block;
+}
+#support-main .question .answer-details .meta span.date {
+    color: #666;
+    display: block;
+    float: none;
+    font-size: 11px;
+    font-weight: bold;
+    margin: 0 0 10px;
+    text-transform: uppercase;
+}
+#support-main .question .answer-details .meta span.date-short {
+    color: #666;
+    display: block;
+    float: none;
+    font-size: 11px;
+    font-weight: bold;
+    margin: 0;
+    text-transform: uppercase;
+}
+#support-main .question .answer-details .answer-body {
+    margin-bottom: 20px;
+}
+#support-main .interactions .interaction-details .interaction-body {
+    margin-top: 10px;
+}
+#support-main .question .answer-rating {
+    font-size: 20px;
+    height: 53px;
+    line-height: 20px;
+    margin: 0 0 0 -70px;
+    position: absolute;
+    text-align: center;
+    width: 54px;
+}
+#support-main .question .answer-rating div {
+    border: 1px solid #ccc;
+    height: 48px;
+    overflow: hidden;
+    padding: 4px;
+}
+#support-main .question .answer-rating a {
+    background: rgba(0, 0, 0, 0) url("https://cdn.desk.com/images/portal/rating-arrows.gif") no-repeat scroll center top;
+    display: block;
+    height: 14px;
+    overflow: hidden;
+    text-align: center;
+    text-indent: -900px;
+}
+#support-main .question .answer-rating .decrement {
+    background-position: center -25px;
+}
+#support-main .question .dialog {
+    display: none;
+}
+#support-main .question .rating-true .score {
+    display: inline-block;
+    margin: 5px 0 0;
+}
+#support-main .question .rating-true .dialog {
+    color: #999;
+    display: inline-block;
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#support-main .question .score-positive {
+    color: #396905;
+}
+#support-main .question .score-negative {
+    color: #69050c;
+}
+#support-main .question #form, #support-main .myportal #form {
+    background: #f8f8f8 none repeat scroll 0 0;
+    border: 1px solid #ccc;
+    margin: 20px;
+    padding: 20px;
+}
+#support-main .question .form-notice, #support-main .myportal .form-notice {
+    border-top: 1px solid #ddd;
+    margin: 0 20px 20px;
+    padding: 15px 0 0;
+}
+#support-main .question #form h4, #support-main .myportal #form h4 {
+    font-size: 15px;
+    margin: 0 0 20px;
+    padding: 0;
+    text-transform: uppercase;
+}
+#support-main .question #form .input-block input[type="text"], #support-main .question #form .input-block textarea, #support-main .myportal #form .input-block textarea {
+    width: 610px;
+}
+#support-main .pre-create h4 {
+    margin: 0 0 30px;
+}
+#support-main .pre-create ul h4 {
+    margin: 0;
+}
+#form .label {
+    display: block;
+    font-weight: bold;
+    margin: 0 0 5px;
+}
+#form .label span {
+    color: #999;
+}
+#form .input-block input[type="text"], #form .input-block textarea {
+    font-size: 13px;
+    margin: 0 0 20px;
+    width: 650px;
+}
+#form .input-block textarea {
+    height: 200px;
+}
+#form .input-block select {
+    margin: 0 0 20px;
+}
+#form .input-block .input-radio-group {
+    margin: 0 0 20px;
+}
+#form .input-button input {
+    background: rgba(0, 0, 0, 0) url("https://cdn.desk.com/images/portal/button.gif") repeat-x scroll 0 0;
+    border: 0 none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    height: 32px;
+    padding: 0 6px;
+    text-transform: uppercase;
+}
+#form .input-button .disabled {
+    background-position: 0 -38px;
+}
+#form .input-button img {
+    display: none;
+    margin: 7px 0 0 5px;
+    position: absolute;
+}
+#form label.invalid {
+    color: red;
+    display: inline-block;
+    margin: -20px 0 20px;
+}
+#paginate_block {
+    margin: 0;
+    text-align: center;
+    width: 100%;
+}
+#paginate_block .pagination {
+    background-color: #fff;
+    height: auto;
+    margin: 0;
+    padding-top: 0;
+    width: auto;
+}
+#paginate_block .current {
+    background-color: #ddd;
+    border: 1px solid #ccc;
+    padding: 4px;
+}
+.support-search-small {
+    position: absolute;
+    right: 0;
+    top: 3px;
+    width: 230px;
+}
+.support-search-small div {
+    position: relative;
+}
+.support-search-small #support-search-submit {
+    background: rgba(0, 0, 0, 0) url("https://cdn.desk.com/images/portal/search.gif") no-repeat scroll 0 0;
+    border: 0 none;
+    cursor: pointer;
+    height: 18px;
+    line-height: 900px;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    text-indent: 900px;
+    top: 9px;
+    width: 21px;
+}
+.support-search-small #q {
+    border: 1px solid #ccc;
+    color: #000;
+    font-size: 13px;
+    font-weight: bold;
+    height: auto;
+    margin-left: 0;
+    margin-top: 0;
+    outline: 0 none;
+    padding: 7px 30px 7px 5px;
+    width: 195px;
+}
+.support-search-big {
+    background-color: transparent !important;
+    margin-left: auto;
+    margin-right: 0;
+    padding: 6px;
+    width: 72.5%;
+}
+.support-search-big .outer {
+    position: relative;
+}
+.support-search-big .inner {
+    background: #fff none repeat scroll 0 0;
+    height: 37px;
+    margin: 0;
+    overflow: hidden;
+    padding: 0 5px;
+    width: 79%;
+}
+.support-search-big #q {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border: 0 none;
+  font-size: 18px;
+  margin: 0;
+  outline: 0 none;
+  padding: 6px 0;
+  width: 100%;
+}
+.support-search-big #support-search-submit {
+  background-color: #003466;
+  border: 0 none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  height: 38px;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  right: 0;
+  text-overflow: ellipsis;
+  top: 0;
+  white-space: nowrap;
+  width: 123px;
+}
+#footer {
+    clear: both;
+    color: #999;
+    display: block;
+    padding: 20px 0 30px;
+}
+#footer a {
+    color: #999;
+    text-decoration: none;
+}
+#question-mask {
+    color: #aaa;
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 90%;
+}
+.question-big {
+    font-size: 18px;
+    left: 10px;
+    top: 8px;
+}
+.question-small {
+    font-size: 13px;
+    font-weight: bold;
+    left: 0;
+    padding: 8px;
+    top: 0;
+}
+.search-bg {
+    display: none;
+}
+.highlight {
+    background-color: #fffae1;
+}
+#modal-screen {
+    background: #000 none repeat scroll 0 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 200;
+}
+#modal {
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 300;
+}
+#modal .inner {
+    background: rgba(0, 0, 0, 0.4) none repeat scroll 0 0;
+    left: 50%;
+    margin: -230px 0 0 -350px;
+    padding: 5px;
+    position: absolute;
+    top: 50%;
+    width: 700px;
+}
+#modal .inner h1 {
+    font-size: 27px;
+    padding: 25px 0 0;
+    text-align: center;
+}
+#modal .inner p.subheader {
+    color: #767676 !important;
+    font-size: 18px !important;
+    margin: 4px 0 30px;
+    text-align: center;
+}
+#modal .inner .input-button {
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0 0 30px;
+    text-align: center;
+}
+#modal .inner .input-button input {
+    margin: 0 0 0 10px;
+}
+#modal .inner .note {
+    color: #616161;
+    font-size: 15px;
+    font-style: italic;
+    margin: 0 0 20px !important;
+    text-align: center;
+}
+#modal .main {
+    background: #fff none repeat scroll 0 0;
+}
+#modal .close {
+    float: right;
+    margin: -16px -16px 0 0;
+}
+.ui-autocomplete {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #c0c0c0;
+    list-style: outside none none;
+    margin: 0;
+    width: 100px;
+}
+.ui-autocomplete a {
+    cursor: pointer;
+    display: block;
+    padding: 9px;
+}
+.ui-autocomplete a:hover, .ui-autocomplete a.ui-state-hover {
+    background: #fffae1 none repeat scroll 0 0;
+    text-decoration: none;
+}
+.ui-autocomplete li:first-child a {
+}
+.ui-autocomplete li:last-child a {
+}
+.ui-autocomplete .KbArticle, .ui-autocomplete .QnaThread {
+    background: rgba(0, 0, 0, 0) url("https://cdn.desk.com/images/portal/icon-types-small.png") no-repeat scroll 0 4px;
+    display: block;
+    overflow: hidden;
+    padding: 0 0 0 25px;
+}
+.ui-autocomplete .QnaThread {
+    background-position: 0 -106px;
+}
+.ui-autocomplete .article-autocomplete-subject {
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+}
+.ui-autocomplete .article-autocomplete-body {
+    color: #666;
+    display: block;
+    font-size: 13px;
+}
+.gs-idea {
+    background: rgba(0, 0, 0, 0) url("https://cdn.desk.com/images/portal/getsatisfaction/idea_mini.png") no-repeat scroll 0 0 !important;
+}
+.gs-question {
+    background: rgba(0, 0, 0, 0) url("https://cdn.desk.com/images/portal/getsatisfaction/question_mini.png") no-repeat scroll 0 0 !important;
+}
+.gs-praise {
+    background: rgba(0, 0, 0, 0) url("https://cdn.desk.com/images/portal/getsatisfaction/praise_mini.png") no-repeat scroll 0 0 !important;
+}
+.gs-update {
+    background: rgba(0, 0, 0, 0) url("https://cdn.desk.com/images/portal/getsatisfaction/update_mini.png") no-repeat scroll 0 0 !important;
+}
+.gs-problem {
+    background: rgba(0, 0, 0, 0) url("https://cdn.desk.com/images/portal/getsatisfaction/problem_mini.png") no-repeat scroll 0 0 !important;
+}
+.gs_search_result {
+    width: 100% !important;
+}
+#gs_Sidebar_Results .tweet_time, .gs-search-result {
+    padding-left: 20px;
+}
+#gs_search_title h5 {
+    border-bottom: 1px solid #dddddd;
+    font-size: 20px;
+    margin: 0 0 20px;
+    padding: 0 0 20px;
+}
+#question-best-answer {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 0 0 25px 70px;
+    padding: 20px 20px 0;
+}
+#support-main .agent-answer-label {
+    margin: 0 0 10px;
+}
+#support-main #question-best-answer .reply {
+    height: 1%;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+}
+#support-main .best-answer-green {
+    background: rgba(0, 0, 0, 0) url("https://cdn.desk.com/images/portal/check.png") no-repeat scroll 0 center;
+    color: #6db400;
+    font-weight: bold;
+    padding: 0 0 0 15px;
+    position: absolute;
+    right: 0;
+}
+#support-main .best-answer-green a {
+    color: #6db400;
+}
+#support-main .best-answer-green a:hover {
+    text-decoration: none;
+}
+#support-main #question-best-answer-heading {
+    margin: 30px 0 10px;
+}
+#social-share {
+    float: left;
+    margin-left: -90px;
+    width: 80px;
+}
+#social-share .share-btn {
+    margin: 0 auto 15px;
+    text-align: center;
+    width: 60px;
+}
+#social-share .share-btn .fb-like {
+    margin-left: 6px;
+}
+#support-main .myportal .content {
+}
+.myportal-label {
+    background: rgba(0, 0, 0, 0) url("https://cdn.desk.com/images/mail.png") no-repeat scroll 0 0;
+    margin: 0 0 8px;
+    padding-left: 22px;
+}
+.myportal .mycases-filters {
+    height: 50px;
+    padding: 20px 0 0;
+}
+.myportal .a-selectbox {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #bebebe;
+    border-radius: 4px;
+    display: block;
+    float: left;
+    padding: 4px;
+    text-decoration: none;
+}
+.myportal .a-selectbox select {
+    -moz-appearance: textfield;
+    background: rgba(0, 0, 0, 0) url("https://cdn.desk.com/images/arrow_down.png") no-repeat scroll right 0;
+    border: medium none;
+    box-sizing: border-box;
+    font-size: 12px;
+    padding: 2px 3px;
+    white-space: pre;
+    width: 190px;
+}
+.myportal .a-checkbox {
+    color: #333;
+    float: left;
+    font-size: 11px;
+    margin: 5px;
+}
+.myportal-button, .myportal-button:visited {
+    background: rgba(0, 0, 0, 0) url("https://cdn.desk.com/images/portal/button.gif") repeat-x scroll 0 0;
+    border: 0 none;
+    border-radius: 3px;
+    color: #fff !important;
+    display: block;
+    float: right;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 8px 6px;
+    text-transform: uppercase;
+}
+.myportal-button:hover {
+    text-decoration: none;
+}
+.myportal .mycases {
+    border-collapse: collapse;
+    font: 12px verdana,arial,helvetica,sans-serif;
+    margin: 0 0 30px;
+    width: 100%;
+}
+.myportal .mycases caption {
+    border: 1px solid #5c443a;
+    color: #5c443a;
+    font-weight: bold;
+    letter-spacing: 20px;
+    padding: 6px 4px 8px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+.myportal .mycases td, th {
+    color: #363636;
+    padding: 11px 5px;
+}
+.myportal .mycases tr {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #ccc;
+}
+.myportal .mycases tbody tr:hover {
+    cursor: pointer;
+}
+.myportal .mycases thead th, tfoot th {
+    background: #e8e8e8 none repeat scroll 0 0;
+    color: #434546;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 6px 5px;
+    text-align: left;
+    text-transform: uppercase;
+}
+.myportal .mycases a {
+    text-decoration: none;
+}
+.myportal .mycases a:hover {
+    text-decoration: underline;
+}
+.myportal .mycases tbody th, .myportal .mycases tbody td {
+    text-align: left;
+    vertical-align: middle;
+}
+.myportal .mycases tfoot td {
+    background: #5c443a none repeat scroll 0 0;
+    color: #ffffff;
+    padding-top: 3px;
+}
+.myportal .mycases .a-casechannel {
+    padding: 11px 0 11px 11px;
+    text-align: center;
+    vertical-align: middle;
+    width: 20px;
+}
+.myportal .case-block {
+    float: left;
+    margin-right: 60px;
+}
+.myportal .a-caseid {
+    padding-left: 15px;
+}
+.myportal .a-caseid, .myportal .a-casestatus {
+    width: 70px;
+}
+.myportal .a-casecreated {
+    width: 60px;
+}
+#support-main .case {
+    padding: 0;
+}
+#support-main .myportal .case-details, #support-main .myportal .interaction {
+    padding: 25px 20px;
+}
+#support-main .myportal .interaction {
+    min-height: 60px;
+    padding-bottom: 0;
+}
+#support-main .myportal .case-details {
+    background-color: #fffdef;
+}
+#support-main .myportal .case-details h3 {
+    border: 0 none;
+    float: left;
+    font-size: 18px;
+    margin: 0 0 20px;
+    padding: 0;
+    vertical-align: top;
+    width: 510px;
+}
+#support-main .myportal .status {
+    float: right;
+    font-weight: bold;
+}
+#support-main .myportal .status img {
+    vertical-align: middle;
+}
+#support-main .myportal .status .a-New, #support-main .myportal .status .a-Open, #support-main .myportal .status .a-Pending, #support-main .myportal .status .a-Resolved, #support-main .myportal .status .a-Closed {
+    color: #fff;
+    font-weight: bold;
+    padding: 2px 8px;
+}
+#support-main .myportal .status .a-New {
+    background-color: #5b75af;
+    border: 1px solid #465a86;
+}
+#support-main .myportal .status .a-Open {
+    background-color: #61a00f;
+    border: 1px solid #4a7b0b;
+}
+#support-main .myportal .status .a-Pending {
+    background-color: #de901b;
+    border: 1px solid #aa6e14;
+}
+#support-main .myportal .status .a-Resolved {
+    background-color: #a5a5a5;
+    border: 1px solid #7e7e7e;
+}
+#support-main .myportal .status .a-Closed {
+    background-color: #de901b;
+    border: 1px solid #aa6e14;
+}
+#support-main .myportal .meta {
+    clear: both;
+    color: #888;
+    line-height: 16px;
+}
+#support-main .myportal .meta strong {
+    color: #000;
+}
+.myportal #paginate_block .pagination {
+    background-color: transparent;
+}
+#support-main .myportal .case-details .meta span.date, #support-main .myportal .interaction-details span.date {
+    color: #888;
+    margin: 0;
+}
+#support-main .myportal .interaction-details span.date {
+    float: right;
+    text-align: right;
+}
+#support-main .myportal .meta .case-data {
+    float: left;
+    list-style: outside none none;
+    position: relative;
+    width: 50%;
+}
+#support-main .myportal .meta .case-dates {
+    float: right;
+    list-style: outside none none;
+    position: relative;
+    width: 50%;
+}
+#support-main .myportal .meta .case-dates strong {
+    display: inline-block;
+    text-align: right;
+    width: 50%;
+}
+#support-main .myportal .meta .name {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#support-main .myportal .interactions {
+    border-top: 1px solid #e3debf;
+    padding-bottom: 20px;
+}
+#customer-account a {
+    margin-left: 9px;
+}
+#support-main .myportal .gravatar-wrapper {
+    border: 1px solid #ccc;
+    height: 56px;
+    position: absolute;
+    width: 56px;
+}
+#support-main .myportal .gravatar {
+    border: 3px solid #fff;
+    float: left;
+}
+#support-main .myportal .gravatar.twitter-avatar {
+    border: 4px solid #fff;
+}
+#support-main .myportal .interaction-details .meta {
+    margin: 0;
+    width: 100%;
+}
+#support-main .myportal .interactions .system-message {
+    color: #aaa;
+    font-size: 12px;
+    padding: 15px 20px 0;
+}
+#support-main .myportal .interactions .chat {
+    padding: 18px 20px 10px;
+}
+#support-main .myportal .interactions .chat .interaction-details {
+    padding: 0;
+}
+#support-main .myportal .interactions .chat .interaction-details .meta span {
+    color: #000;
+    font-weight: bold;
+}
+#support-main .myportal .interactions .chat .interaction-details .meta span.date {
+    color: #888;
+    font-weight: normal;
+}
+#support-main .myportal .interactions .chat .interaction-body {
+    margin-top: 5px;
+    padding-right: 50px;
+}
+#support-main .myportal .case-footer {
+    border-top: 1px solid #ccc;
+    margin-top: 20px;
+    padding: 25px 20px 0;
+}
+#support-main .myportal .case-footer p {
+    margin-bottom: 5px;
+}
+.myaccount-form {
+    padding-top: 20px;
+}
+.myaccount-form .new_customer_contact_email {
+    border-top: 1px solid #ddd;
+    padding: 30px 0;
+}
+.myaccount-form div img {
+    vertical-align: middle;
+}
+.myaccount-form div[id^="email_"], .myaccount-form div[id^="twitter_user_"], .myaccount-form div[id^="facebook_user_"], .myaccount-form div[id^="add_"] {
+    border-top: 1px solid #ddd;
+    color: #666;
+    font-size: 14px;
+    padding: 15px 0;
+    position: relative;
+}
+.myaccount-form div[id^="twitter_user_"] form div, .myaccount-form div[id^="facebook_user_"] form div {
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+.myaccount-form div[id^="email_"] div[id^="delete_"] form div {
+    position: absolute;
+    right: 78px;
+    top: 10px;
+}
+.myaccount-form input[id^="update_status"]:disabled {
+    cursor: help;
+}
+.myaccount-form div[id^="verified_"] input, .myaccount-form div[id^="delete_"] input, .myaccount-form input[id^="update_status"], .myaccount-form input[id^="update_status"]:disabled {
+    background-color: #f9f9f9;
+    border: 1px solid #cfcfcf;
+    color: #666;
+    cursor: pointer;
+    font-size: 10px;
+    font-weight: bold;
+    height: 30px;
+    padding: 6px 15px 7px;
+    text-transform: uppercase;
+}
+.myaccount-form div[id^="verified_"] input:hover, .myaccount-form div[id^="delete_"] input:hover, .myaccount-form input[id^="update_status"]:hover {
+    background-color: #fff;
+    border-color: #b4b4b4;
+}
+.myaccount-form div[id^="email_"]:hover, .myaccount-form div[id^="twitter_user_"]:hover, .myaccount-form div[id^="facebook_user_"]:hover, .myaccount-form div[id^="add_"]:hover {
+    background-color: #f9f9f9;
+}
+#authentication-verification-copy {
+    display: inline-block;
+    padding-left: 20px;
+    width: 50%;
+}
+.authentication_verification-form {
+    display: inline-block;
+    height: 100px;
+}
+.authentication_verification-form form {
+    background-color: #eefaff;
+    display: inline-block;
+    padding: 25px 20px;
+}
+.myaccount-form .verified, .authentication_verification-form .verified {
+    color: #3d8933;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 7px 1px 0 0;
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+.myaccount-form div[id^="email_"] .verified form div, .myaccount-form div[id^="twitter_user_"] .verified form div, .myaccount-form div[id^="facebook_user_"] .verified form div {
+    margin-top: -7px;
+}
+.myaccount-form input[type="text"], .authentication_verification-form input[type="text"] {
+    border: 1px solid #c0c0c0;
+    float: left;
+    font-size: 12px;
+    margin: 0 5px 8px 0;
+    padding: 8px 4px;
+    width: 195px;
+}
+.myaccount-form button, .authentication_verification-form button {
+    background: rgba(0, 0, 0, 0) url("https://cdn.desk.com/images/portal/button.gif") repeat-x scroll 0 0;
+    border: 0 none;
+    color: #fff;
+    cursor: pointer;
+    float: left;
+    font-size: 13px;
+    font-weight: bold;
+    height: 32px;
+    margin: 0;
+    overflow: hidden;
+    padding: 0 6px;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+.myaccount-form label.invalid, .authentication_verification-form label.invalid {
+    clear: both;
+    display: block !important;
+    font-weight: normal;
+    margin: 10px 0 20px;
+}
+.login-form, .registration-form, .forgotpw-form, .alternatelogins {
+    padding: 20px 0;
+}
+.alternatelogins {
+    float: right;
+    padding: 20px 0;
+}
+.login-form .field label, .registration-form .field label, .forgotpw-form .field label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+}
+.login-form .field input, .registration-form .field input, .forgotpw-form .field input {
+    border: 1px solid #999;
+    display: block;
+    font-size: 14px;
+    margin: 4px 0 15px;
+    padding: 8px 4px;
+    width: 250px;
+}
+.login-form .actions input {
+    margin-bottom: 40px;
+    width: 80px;
+}
+.login-form .newaccount, .login-form .forgotpw {
+    float: left;
+    font-weight: bold;
+}
+.login-form .forgotpw {
+    border-left: 1px solid #999;
+    margin-left: 8px;
+    padding-left: 8px;
+}
+.registration-form label.invalid, .forgotpw-form label.invalid {
+    display: block;
+    font-weight: normal;
+    margin: -10px 0 20px;
+}
+.login-form form {
+    float: left;
+    width: 330px;
+}
+.left-divider {
+    border-left: 1px solid #ccc;
+}
+.alternatelogins {
+    float: left;
+    height: 200px;
+    padding-left: 25px;
+}
+.alternatelogins div {
+    margin: 0 0 20px;
+}
+.alternatelogins a, #add_facebook input, #add_twitter input {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #999;
+    border-radius: 2px;
+    box-sizing: content-box;
+    color: #222;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 20px;
+    height: 36px;
+    line-height: 36px;
+    margin: 0;
+    padding: 0 1em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.alternatelogins a:hover, .alternatelogins a:focus, .alternatelogins a:active, #add_facebook input, #add_twitter input {
+    color: #222;
+    text-decoration: none;
+}
+.alternatelogins a::before {
+    background: rgba(0, 0, 0, 0) url("https://cdn.desk.com/images/portal/auth-icons.png") no-repeat scroll 99px 99px;
+    content: "";
+    float: left;
+    height: 36px;
+    width: 36px;
+}
+.alternatelogins #twitter, #add_twitter input {
+    background: #cfe4f0 linear-gradient(#f1f5f7, rgba(255, 255, 255, 0)) repeat scroll 0 0;
+    border-color: #a6cde6;
+    box-shadow: 0 1px 0 #fff inset;
+    color: #327695;
+}
+.alternatelogins #twitter:hover, .alternatelogins #twitter:focus, .alternatelogins #twitter:active, #add_twitter input:hover, #add_twitter input:focus, #add_twitter input:active {
+    background-color: #cadde9;
+    border-color: #8dc2e4;
+    color: #327695;
+}
+.alternatelogins #twitter:active, #add_twitter input:active {
+    background: #cadde9 none repeat scroll 0 0;
+    box-shadow: 0 1px 0 #bbd6e7 inset;
+}
+.alternatelogins #twitter::before {
+    background-position: -36px -22px;
+    margin: 0 0.6em 0 -0.6em;
+}
+.alternatelogins #facebook, #add_facebook input {
+    background-color: #5872a7;
+    background-image: linear-gradient(#637bad, #5872a7);
+    border-color: #29447e #29447e #1a356e;
+    box-shadow: 0 1px 0 #879ac0 inset;
+    color: #fff;
+}
+.alternatelogins #facebook:hover, .alternatelogins #facebook:focus, #add_facebook input:hover, #add_facebook input:focus {
+    background-color: #3b5998;
+    color: #fff;
+}
+.alternatelogins #facebook:active, #add_facebook input:active {
+    background: #4f6aa3 none repeat scroll 0 0;
+    box-shadow: 0 1px 0 #45619d inset;
+    color: #fff;
+}
+.alternatelogins #facebook::before {
+    background-position: 0 -22px;
+    border-right: 1px solid #465f94;
+    margin: 0 1em 0 -1em;
+}
+#add_facebook input, #add_twitter input {
+    font-size: 11px;
+    height: 22px;
+    line-height: 22px;
+    padding-left: 35px;
+}
+#add_facebook input {
+    background: #5872a7 url("https://cdn.desk.com/images/portal/auth-icons.png") no-repeat scroll -265px -25px;
+}
+#registration-in-progress {
+    background-color: #fffdef;
+    display: none;
+    padding: 5px;
+}
+#registration-in-progress img {
+    float: left;
+    margin-right: 5px;
+}
+#add_twitter input {
+    background: #cfe4f0 url("https://cdn.desk.com/images/portal/auth-icons.png") no-repeat scroll -261px 0;
+}
+.desk-external-variables {
+    display: none;
+}
+#verification_step_1 {
+    display: none;
+}
+#verification_step_2 {
+}
+.hidden {
+    display: none;
+}
+.desk_file_upload {
+    overflow: hidden;
+}
+.desk_file_upload input[type="file"] {
+    float: left;
+    height: 100%;
+    margin-left: -99999px;
+    opacity: 0;
+    outline: medium none;
+    position: relative;
+    text-align: right;
+    width: 100%;
+    z-index: 2;
+}
+.desk_file_upload input[type="button"] {
+    float: left;
+}
+.desk_file_upload .faux-file-field {
+    float: left;
+    margin: 0;
+    padding: 0 8px 0 0;
+    z-index: 1;
+}
+.desk_file_upload .faux-file-field input[type="text"] {
+    width: 180px !important;
+}
+.radio-label-rating-type {
+    margin-right: 12px;
+    vertical-align: middle;
+}
+.view_all {
+  background: #003466 none repeat scroll 0 0;
+  color: #fff !important;
+  display: inline-block;
+  margin-bottom: 10px;
+  margin-top: -10px;
+  padding: 4px 9px;
+}
+.why_itbit {
+  background: #40bde9 none repeat scroll 0 0;
+  color: #fff !important;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 14px 5px;
+  text-align: center;
+  width: 260px;
+}
+@media screen and (max-width: 980px) {
+#support-main .dashboard td {
+  display: block;
+  vertical-align: top;
+}
+}
